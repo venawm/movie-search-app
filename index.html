@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="module" src="./js/app.js" defer></script>
+	<title>Movie List Website</title>
+  <link rel="stylesheet" href="./css/custom.css">
+	
+	
+
+</head>
+<body>
+
+    <form>
+      <h1>Movie List Website</h1>
+        <label>
+          Movie Name
+          <input type="text" id="title" name="name">
+        </label>
+        <label>
+          Director:
+          <input type="text" id="director" name="director">
+        </label>
+        <br>
+        <label>
+          Year:
+          <input type="number" id="year" name="year">
+        </label>
+        <br>
+        <div id="reviews-container">
+          <div class="review">
+            <label>
+              Reviewer:
+              <input type="text" id="reviewer" name="reviewer[]">
+            </label>
+            <br>
+            <label>
+              Rating:
+              <input type="number" id="rating" name="rating[]">
+            </label>
+            <br>
+            <label>
+              Comment:
+              <input type="text" id="comment" name="comment[]">
+            </label>
+            <br>
+          </div>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+      
+      
+
+		<div id="movieList">
+        </div>
+
+		<!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </body>
+    </html>

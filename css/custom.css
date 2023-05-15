@@ -1,0 +1,117 @@
+/* body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+}
+
+/* form styles */
+form {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #999999;
+}
+
+form h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+}
+
+form button[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3366CC;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* reviews styles */
+#reviews-container {
+    margin-top: 20px;
+}
+
+.review {
+    border: 1px solid #999999;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.review label {
+    display: block;
+}
+
+.review input[type="text"],
+.review input[type="number"] {
+    margin-top: 5px;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+}
+
+/* movie list styles */
+#movieList {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.movie {
+    border: 1px solid #999999;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.movie h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.movie p {
+    margin: 5px 0;
+}
+
+.movie .reviews {
+    margin-top: 10px;
+}
+
+.movie .review {
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.movie .review p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.movie .review .rating {
+    font-weight: normal;
+}
